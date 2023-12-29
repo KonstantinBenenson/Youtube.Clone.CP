@@ -30,9 +30,9 @@
   flex: 1;
 }
 
-.header_inputButton {
+.header__inputButton {
   width: 50px !important;
-  background-color: lightgreen;
+  background-color: #fefefe;
   border-left: 1px solid lightgray;
 }
 
