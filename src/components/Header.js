@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__left">
-        <MenuSharpIcon />
+        <MenuSharpIcon className="header__left__menuSharp" />
         <img
           className="header__logo"
           alt="Youtube logo"

@@ -14,7 +14,7 @@
 
 .header__logo {
   height: 25px;
-  margin-left: 15px;
+  margin-left: 35px;
   object-fit: contain;
 }
 
@@ -43,4 +43,9 @@
 
 .header__icon {
   margin-right: 7px;
+}
+
+.header__left__menuSharp:hover {
+  border-radius: 50%;
+  background-color: lightgray;
 }

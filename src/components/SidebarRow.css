@@ -2,21 +2,42 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
+  height: 20px;
+}
+
+.sidebarRow.selected {
+  background-color: #efc5c5;
 }
 
 .sidebarRow__icon {
   color: gray;
-  font-size: larger !important;
+  font-size: large !important;
 }
 
 .sidebarRow__title {
   flex: 1;
   margin-left: 15px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .sidebarRow:hover {
   background-color: lightgray;
   cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebarRow__icon {
+  color: red;
+}
+
+.sidebarRow:hover > .sidebarRow__title {
+  font-weight: bold;
+}
+
+.sidebarRow.selected > .sidebarRow__icon {
+  color: red;
+}
+
+.sidebarRow.selected > .sidebarRow__title {
+  font-weight: bold;
 }
