@@ -1,6 +1,7 @@
 import React from "react";
 import VideoCard from "./VideoCard.js";
 import "./RecommendedVideos.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const RecommendedVideos = () => {
   const videoCards = [
