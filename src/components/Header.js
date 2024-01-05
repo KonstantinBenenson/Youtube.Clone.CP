@@ -39,10 +39,7 @@ const Header = () => {
         <VideoCallIcon className="header__icon" />
         <AppsIcon className="header__icon" />
         <NotificationsIcon className="header__icon" />
-        <Avatar
-          alt="Remy Sharp"
-          src="youtube-cp\src\static\img\naughty-cat.jpg"
-        />
+        <Avatar alt="Remy Sharp" src="/img/itsme.jpg" />
       </div>
     </div>
   );
