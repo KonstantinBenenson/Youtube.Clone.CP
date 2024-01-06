@@ -6,7 +6,6 @@ function SidebarRow({ selected, Icon, title }) {
     <div className={`sidebarRow ${selected && "selected"}`}>
       <Icon className="sidebarRow__icon" />
       <h2 className="sidebarRow__title">{title}</h2>
-      <hr />
     </div>
   );
 }
